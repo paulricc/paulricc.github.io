@@ -1,0 +1,16 @@
+title: Paolo Riccarand
+email: paul.riccarand@gmail.com
+description: >-
+  Data Scientist and AI Engineer based in Luxembourg, documenting my journey towards Machine Learning Engineering.
+baseurl: ""
+url: "https://paulricc.github.io"
+github_username: paulricc
+linkedin_username: paolo-riccarand
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+minima:
+  skin: dark
