@@ -2,10 +2,10 @@
 layout: home
 ---
 
-Data Scientist by day, aspiring Machine Learning Engineer by night, and apparently also on weekends.
-I work at Deloitte Luxembourg, where I build AI solutions and occasionally convince SQL queries to run 
-in under a second. This site is my attempt at documenting the journey from "I work with data" to 
-"I actually know what I'm doing": projects, books, and all the things I'm learning along the way.
+I work in AI, building production systems and solving real problems with machine learning. 
+Alongside that, I am deepening my theoretical foundations and working on projects that 
+push beyond the day job. This site documents the projects, the books, and the thinking 
+behind both.
 
 ---
 
