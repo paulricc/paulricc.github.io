@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 ### Stock Price Forecasting with Time Series Neural Networks
-*Python · PyTorch · LSTM · ARIMA · Time Series Analysis*
+*Python · PyTorch · LSTM · ARIMA · Time Series Analysis · MLOps*
 
 Can deep learning models outperform classical statistical approaches in forecasting stock 
 prices? That is the question this project sets out to answer. Using the STOXX Europe 600 
