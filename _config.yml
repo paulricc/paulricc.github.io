@@ -14,3 +14,8 @@ plugins:
 
 minima:
   skin: dark
+
+header_pages:
+  - about.markdown
+  - projects.markdown
+  - learning.markdown
