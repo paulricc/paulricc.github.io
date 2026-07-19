@@ -7,20 +7,21 @@ permalink: /projects/
 ### Stock Price Forecasting with Time Series Neural Networks
 *Python · PyTorch · LSTM · ARIMA · Time Series Analysis · MLOps*
 
-Can deep learning models outperform classical statistical approaches in forecasting stock 
-prices? That is the question this project sets out to answer. Using the STOXX Europe 600 
-index as the target, I compared the predictive performance of a Temporal Neural Network 
-(TNN), an LSTM, and two ARIMA configurations across three forecasting horizons: 1, 7, 
-and 30 days.
+Can deep learning outperform classical approaches at forecasting stock prices? I
+implemented the Time-series Neural Network (TNN) from a 2023 paper in PyTorch and
+benchmarked it against LSTM and ARIMA on the STOXX Europe 600, across horizons of
+1, 7, and 30 days.
 
-The TNN came out on top at shorter horizons, achieving an RMSE of 0.0268 and an R² of 
-0.95 at the 1-day horizon. As the forecasting horizon grows, predicting stock prices 
-becomes — unsurprisingly — harder for everyone.
+The interesting part turned out to be the evaluation. Averaged over five random
+seeds, TNN and LSTM perform within the margin of run-to-run variance, and a simple
+persistence baseline holds up well against all three models. Forecasting price
+levels rewards doing very little, which makes naive baselines essential for reading
+the results properly.
 
-Originally developed as my master's thesis at Bocconi University, I am now rewriting the 
-codebase from scratch into a production-ready repository, applying the software engineering 
-and MLOps practices I have built since then.
+Built as a production repository: uv, Ruff, mypy, pre-commit, pytest, Docker,
+GitHub Actions, and MLflow experiment tracking.
 
+[Read the full write-up](/projects/tnn-stoxx600/) ·
 [View on GitHub](https://github.com/paulricc/tnn-stoxx600-forecasting){:target="_blank"}
 
 
